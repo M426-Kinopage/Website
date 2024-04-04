@@ -6,6 +6,9 @@ import Kantine from '../views/Kantine.vue'
 import Movies from '../views/Movies.vue'
 import Geschenkkarte from '../views/Geschenkkarte.vue'
 import Partner from '../views/Partner.vue'
+import Kontakt from '../views/Kontakt.vue'
+import Impressum from '../views/Impressum.vue'
+import Nutzungsbedingungen from '../views/Nutzungsbedingungen.vue'
 
 const routes = [
   {
@@ -42,7 +45,24 @@ const routes = [
     path: '/partner',
     name: 'partner',
     component: Partner
+  },
+  {
+    path: '/kontakt',
+    name: 'kontakt',
+    component: Kontakt
+  },
+  {
+    path: '/impressum',
+    name: 'impressum',
+    component: Impressum
+  },
+
+  {
+    path: '/nutzungsbedingungen',
+    name: 'nutzungsbedingungen',
+    component: Nutzungsbedingungen
   }
+
 ]
 
 const router = createRouter({
