@@ -7,7 +7,7 @@
   --gunmetal-1: hsl(229, 15%, 21%);
   --gunmetal-2: hsl(216, 22%, 18%);
   --gainsboro: hsl(0, 7%, 88%);
-  --citrine: hsl(57, 97%, 45%);
+  --citrine: rgb(119, 102, 51);
   --xiketic: hsl(253, 21%, 13%);
   --gray-x: hsl(0, 0%, 74%);
   --white: hsl(0, 100%, 100%);
@@ -308,7 +308,7 @@
 #home .movie-card :is(.duration, .rating) ion-icon {
   font-size: 13px;
   --ionicon-stroke-width: 50px;
-  color: var (--citrine);
+  color: var(--citrine);
 }
 
 #home .movies-list.has-scrollbar {
@@ -602,14 +602,14 @@
 
 #home .cta-text {
   color: var(--eerie-black);
-  font-size: var (--fs-9);
-  font-weight: var (--fw-500);
+  font-size: var(--fs-9);
+  font-weight: var(--fw-500);
   line-height: 1.8;
 }
 
 #home .cta .email-field {
   color: var(--eerie-black);
-  font-size: var (--fs-9);
+  font-size: var(--fs-9);
   padding: 18px 32px;
   border-radius: 4px;
   box-shadow: 0 3px 4px hsla(0, 0%, 0%, 0.2);
@@ -617,22 +617,22 @@
 }
 
 #home .cta-form-btn {
-  background: var (--eerie-black);
-  color: var (--citrine);
-  font-size: var (--fs-9);
-  font-weight: var (--fw-700);
+  background: var(--eerie-black);
+  color: var(--citrine);
+  font-size: var(--fs-9);
+  font-weight: var(--fw-700);
   text-transform: uppercase;
   letter-spacing: 1px;
-  border: 2px solid var (--eerie-black);
+  border: 2px solid var(--eerie-black);
   padding: 15px 34px;
   border-radius: 4px;
   margin-inline: auto;
-  transition: var (--transition-1);
+  transition: var(--transition-1);
 }
 
 #home .cta-form-btn:is(:hover, :focus) {
-  background: var (--citrine);
-  color: var (--eerie-black);
+  background: var(--citrine);
+  color: var(--eerie-black);
 }
 
 #home .go-top {
@@ -640,7 +640,7 @@
   bottom: 20px;
   right: 20px;
   background: var(--citrine);
-  color: var (--eerie-black);
+  color: var(--eerie-black);
   width: 50px;
   height: 50px;
   display: grid;
@@ -649,7 +649,7 @@
   box-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.5);
   opacity: 0;
   visibility: hidden;
-  transition: var (--transition-2);
+  transition: var(--transition-2);
   z-index: 2;
 }
 
@@ -663,12 +663,12 @@
   background-size: cover;
   background-position: center;
   padding-top: 160px;
-  padding-bottom: var (--section-padding);
+  padding-bottom: var(--section-padding);
 }
 
 #home .movie-detail-banner {
   position: relative;
-  background: var (--gunmetal-1);
+  background: var(--gunmetal-1);
   max-width: 300px;
   margin-inline: auto;
   border-radius: 6px;
@@ -688,8 +688,8 @@
   display: grid;
   place-items: center;
   font-size: 120px;
-  color: var (--white);
-  transition: var (--transition-1);
+  color: var(--white);
+  transition: var(--transition-1);
 }
 
 #home .play-btn:hover {
@@ -697,9 +697,9 @@
 }
 
 #home .detail-subtitle {
-  font-size: var (--fs-5);
-  color: var (--citrine);
-  font-weight: var (--fw-700);
+  font-size: var(--fs-5);
+  color: var(--citrine);
+  font-weight: var(--fw-700);
   margin-bottom: 10px;
 }
 
@@ -708,7 +708,7 @@
 }
 
 #home .detail-title strong {
-  color: var (--citrine);
+  color: var(--citrine);
 }
 
 #home .movie-detail .meta-wrapper {
@@ -716,9 +716,9 @@
 }
 
 #home .storyline {
-  color: var (--gray-x);
-  font-size: var (--fs-9);
-  font-weight: var (--fw-500);
+  color: var(--gray-x);
+  font-size: var(--fs-9);
+  font-weight: var(--fw-500);
   line-height: 1.8;
   margin-bottom: 40px;
 }
@@ -729,37 +729,37 @@
   flex-wrap: wrap;
   gap: 20px 40px;
   max-width: 460px;
-  background: var (--gunmetal-2);
+  background: var(--gunmetal-2);
   padding: 25px;
-  border: 1px solid var (--jet);
+  border: 1px solid var(--jet);
   border-radius: 4px;
   margin-bottom: 30px;
 }
 
 #home .details-actions .share ion-icon {
   font-size: 25px;
-  color: var (--white);
+  color: var(--white);
   margin-inline: auto;
 }
 
 #home .details-actions .share span {
-  color: var (--gainsboro);
-  font-size: var (--fs-11);
-  transition: var (--transition-1);
+  color: var(--gainsboro);
+  font-size: var(--fs-11);
+  transition: var(--transition-1);
 }
 
 #home .details-actions .share:is(:hover, :focus) span {
-  color: var (--citrine);
+  color: var(--citrine);
 }
 
 #home .details-actions .title {
-  color: var (--white);
-  font-weight: var (--fw-700);
+  color: var(--white);
+  font-weight: var(--fw-700);
 }
 
 #home .details-actions .text {
-  font-size: var (--fs-11);
-  color: var (--gainsboro);
+  font-size: var(--fs-11);
+  color: var(--gainsboro);
 }
 
 #home .details-actions .btn-primary {
@@ -770,15 +770,15 @@
 }
 
 #home .details-actions .btn-primary:is(:hover, :focus) {
-  background: var (--citrine);
+  background: var(--citrine);
 }
 
 #home .download-btn {
   max-width: max-content;
-  background: var (--citrine);
-  color: var (--rich-black-fogra-29);
-  font-size: var (--fs-11);
-  font-weight: var (--fw-500);
+  background: var(--citrine);
+  color: var(--rich-black-fogra-29);
+  font-size: var(--fs-11);
+  font-weight: var(--fw-500);
   text-transform: uppercase;
   display: flex;
   align-items: center;
