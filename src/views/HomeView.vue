@@ -51,7 +51,7 @@
                 <li>
                   <button class="filter-btn">TV Shows</button>
                 </li>
-                <!-- <li> -->
+                <li>
                   <button class="filter-btn">Anime</button>
                 </li>
               </ul>
@@ -60,17 +60,19 @@
             <ul class="movies-list has-scrollbar">
               <li>
                 <div class="movie-card">
-                  <a href="./movie-details.vue">
-                    <figure class="card-banner">
-                      <img
-                        src="../assets/images/upcoming-1.png"
-                        alt="The Northman movie poster"
-                      />
-                    </figure>
-                  </a>
+                  <router-link to="/movieDetails">
+                    <a href="./movieDetails">
+                      <figure class="card-banner">
+                        <img
+                          src="../assets/images/upcoming-1.png"
+                          alt="The Northman movie poster"
+                        />
+                      </figure>
+                    </a>
+                  </router-link>
 
                   <div class="title-wrapper">
-                    <a href="./movie-details.vue">
+                    <a href="./movieDetails">
                       <h3 class="card-title">The Northman</h3>
                     </a>
                     <time datetime="2022">2022</time>
@@ -92,7 +94,7 @@
 
               <li>
                 <div class="movie-card">
-                  <a href="./movie-details.vue">
+                  <a href="./movieDetails">
                     <figure class="card-banner">
                       <img
                         src="../assets/images/upcoming-2.png"
@@ -102,7 +104,7 @@
                   </a>
 
                   <div class="title-wrapper">
-                    <a href="./movie-details.vue">
+                    <a href="./movieDetails">
                       <h3 class="card-title">
                         Doctor Strange in the Multiverse of Madness
                       </h3>
@@ -126,7 +128,7 @@
 
               <li>
                 <div class="movie-card">
-                  <a href="./movie-details.vue">
+                  <a href="./movieDetails">
                     <figure class="card-banner">
                       <img
                         src="../assets/images/upcoming-3.png"
@@ -136,7 +138,7 @@
                   </a>
 
                   <div class="title-wrapper">
-                    <a href="./movie-details.vue">
+                    <a href="./movieDetails">
                       <h3 class="card-title">Memory</h3>
                     </a>
                     <time datetime="2022">2022</time>
@@ -158,7 +160,7 @@
 
               <li>
                 <div class="movie-card">
-                  <a href="./movie-details.vue">
+                  <a href="./movieDetails">
                     <figure class="card-banner">
                       <img
                         src="../assets/images/upcoming-4.png"
@@ -168,7 +170,7 @@
                   </a>
 
                   <div class="title-wrapper">
-                    <a href="./movie-details.vue">
+                    <a href="./movieDetails">
                       <h3 class="card-title">
                         The Unbearable Weight of Massive Talent
                       </h3>
@@ -216,7 +218,7 @@
             <ul class="movies-list">
               <li>
                 <div class="movie-card">
-                  <a href="./movie-details.vue">
+                  <a href="./movieDetails">
                     <figure class="card-banner">
                       <img
                         src="../assets/images/movie-1.png"
@@ -226,7 +228,7 @@
                   </a>
 
                   <div class="title-wrapper">
-                    <a href="./movie-details.vue">
+                    <a href="./movieDetails">
                       <h3 class="card-title">Sonic the Hedgehog 2</h3>
                     </a>
                     <time datetime="2022">2022</time>
@@ -248,7 +250,7 @@
 
               <li>
                 <div class="movie-card">
-                  <a href="./movie-details.vue">
+                  <a href="./movieDetails">
                     <figure class="card-banner">
                       <img
                         src="../assets/images/movie-2.png"
@@ -258,7 +260,7 @@
                   </a>
 
                   <div class="title-wrapper">
-                    <a href="./movie-details.vue">
+                    <a href="./movieDetails">
                       <h3 class="card-title">Morbius</h3>
                     </a>
                     <time datetime="2022">2022</time>
@@ -280,7 +282,7 @@
 
               <li>
                 <div class="movie-card">
-                  <a href="./movie-details.vue">
+                  <a href="./movieDetails">
                     <figure class="card-banner">
                       <img
                         src="../assets/images/movie-3.png"
@@ -290,7 +292,7 @@
                   </a>
 
                   <div class="title-wrapper">
-                    <a href="./movie-details.vue">
+                    <a href="./movieDetails">
                       <h3 class="card-title">The Adam Project</h3>
                     </a>
                     <time datetime="2022">2022</time>
@@ -312,7 +314,7 @@
 
               <li>
                 <div class="movie-card">
-                  <a href="./movie-details.vue">
+                  <a href="./movieDetails">
                     <figure class="card-banner">
                       <img
                         src="../assets/images/movie-4.png"
@@ -322,7 +324,7 @@
                   </a>
 
                   <div class="title-wrapper">
-                    <a href="./movie-details.vue">
+                    <a href="./movieDetails">
                       <h3 class="card-title">Free Guy</h3>
                     </a>
                     <time datetime="2021">2021</time>
@@ -344,7 +346,7 @@
 
               <li>
                 <div class="movie-card">
-                  <a href="./movie-details.vue">
+                  <a href="./movieDetails">
                     <figure class="card-banner">
                       <img
                         src="../assets/images/movie-5.png"
@@ -354,7 +356,7 @@
                   </a>
 
                   <div class="title-wrapper">
-                    <a href="./movie-details.vue">
+                    <a href="./movieDetails">
                       <h3 class="card-title">The Batman</h3>
                     </a>
                     <time datetime="2022">2022</time>
