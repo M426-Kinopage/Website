@@ -1,5 +1,6 @@
 <template>
   <footer>
+  
     <div class="footer-content">
       <ul>
         <li>
@@ -21,6 +22,7 @@
         </li>
       </ul>
     </div>
+    
   </footer>
 </template>
 
@@ -31,14 +33,23 @@ export default {
 </script>
 
 <style scoped>
+
+
+.content-wrap {
+  flex: 1;
+}
+
 footer {
-  background-color: #763;
+  position: absolute; /* Positionierung relativ zum #app-Container */
+  bottom: 0; /* Am unteren Rand positionieren */
+  left: 0;
+  width: 100%; /* Volle Breite einnehmen */
+  background-color: #7f0000;
   color: #fff;
   padding: 20px 0;
   text-align: center;
-  width: 100%;
-  margin-top: auto;
 }
+
 
 .footer-content {
   max-width: 1200px;
@@ -70,3 +81,4 @@ footer {
   text-decoration: underline;
 }
 </style>
+
