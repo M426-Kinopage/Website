@@ -23,9 +23,38 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f1e3;
   text-align: center;
   color: #2c3e50;
+  min-height: 100vh; 
+  display: flex; 
+  flex-direction: column; 
+  position: relative; 
 }
+
+
+
+Header {
+  flex: 0 0 auto; 
+}
+
+router-view {
+  flex: 1; 
+  overflow-y: auto; 
+}
+
+Footer {
+  flex: 0 0 auto; 
+  position: fixed; 
+  bottom: 0; 
+  width: 100%;
+  background-color: #2c3e50; 
+
+  color: white; 
+  padding: 10px; 
+}
+
+
 
 nav {
   padding: 30px;

@@ -34,8 +34,9 @@
               4717 Mümliswil
             </p>
           </div>
+          <div id="map" class="map-container"></div>
         </div>
-        <div id="map" class="map-container"></div>
+       
       </div>
     </div>
     

@@ -17,7 +17,7 @@
 
 <style scoped>
 header {
-  background-color: #763;
+  background-color: #7f0000;
   color: #fff;
   padding: 15px 0;
   text-align: center;
@@ -52,7 +52,7 @@ nav {
 }
 
 .nav-links li a:hover {
-  color: #42b983; 
+  color: #ffa500; 
   text-decoration: none;
 }
 
