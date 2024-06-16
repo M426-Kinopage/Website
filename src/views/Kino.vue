@@ -2,9 +2,15 @@
   <div>
     <div class="privacy-policy-container">
       <div class="privacy-policy-box">
+   
         <h1 class="page-title">Standort Mümliswil</h1>
         <p>Willkommen im Jungscharhaus - Ihrem Ort für unvergessliche Kinomomente! In unserem gemütlichen Kino laden wir Sie ein, sich zurückzulehnen, zu entspannen und in die faszinierende Welt des Films einzutauchen. Mit zwei Sälen und insgesamt 187 Sitzen gilt unser Kino als das grösste und auch einzige Kino in ganz Mümliswil.</p>
+       
+        <div class="kino-image-container">
+          <img src="@/assets/Kino_Innen.jpg" alt="Kino Saal" class="kino-image" />
+        </div>
         <hr class="divider">
+
         <div class="additional-info">
           <div class="info-item">
             <img src="@/assets/Sitz_Icon.png" alt="Plätze" class="icon" />
@@ -22,9 +28,10 @@
             <img src="@/assets/Kino_Icon.png" alt="Plätze" class="icon" />
             <p>2 Säle</p>
           </div>
-          <!-- Weitere Icons und Informationen hier -->
+        
         </div>
         <hr class="divider">
+   
         <div class="kino-details">
           <div class="kino-info">
             <h3>Hier findest du uns:</h3>
@@ -38,7 +45,6 @@
         <div id="map" class="map-container"></div>
       </div>
     </div>
-    
   </div>
 </template>
 
@@ -48,7 +54,7 @@ import Map from 'ol/Map';
 import View from 'ol/View';
 import TileLayer from 'ol/layer/Tile';
 import OSM from 'ol/source/OSM';
-import { fromLonLat } from 'ol/proj'; 
+import { fromLonLat } from 'ol/proj';
 
 export default {
   name: "Kino",
@@ -76,12 +82,10 @@ export default {
       });
     }
   }
-
 };
 </script>
 
 <style scoped>
-/* Your existing styles */
 .page-title {
   text-align: center;
   margin-bottom: 20px;
@@ -107,9 +111,14 @@ export default {
   margin-top: 20px; /* added margin */
 }
 
+.kino-image-container {
+  text-align: center;
+  margin: 20px 0; /* added margin */
+}
+
 .kino-image {
   width: 100%;
-  height: 500px;
+  height: 300px;
   object-fit: fill;
 }
 
