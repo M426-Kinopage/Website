@@ -6,7 +6,7 @@
           <div class="container">
             <div class="hero-content">
               <h1 class="h1 hero-title">
-                Geniesse die neusten <strong>Filme</strong> bei Kinoflix.
+                Geniesse die neusten <strong>Filme</strong> bei Cineflick.
               </h1>
             </div>
           </div>
