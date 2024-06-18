@@ -7,7 +7,6 @@
         <li><router-link to="/" class="nav-link">Home</router-link></li>
         <li><router-link to="/kino" class="nav-link">Kino</router-link></li>
         <li><router-link to="/kantine" class="nav-link">Kantine</router-link></li>
-        <li><router-link to="/movies" class="nav-link">Movies</router-link></li>
         <li><router-link to="/geschenkkarte" class="nav-link">Geschenkkarte</router-link></li>
         <li><router-link to="/partner" class="nav-link">Partner</router-link></li>
       </ul>
