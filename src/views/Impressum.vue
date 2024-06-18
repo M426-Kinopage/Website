@@ -3,10 +3,10 @@
       <div class="impressum-box">
         <h1>Impressum</h1>
         <ul>
-          <li>Firmenname: Kino</li>
-          <li>Adresse: Kinostrasse 123, 9833 Kinostadt</li>
+          <li>Firmenname: Cineflick</li>
+          <li>Adresse: Brunnersbergstrasse 27,<br> 4717 Mümliswil</li>
           <li>Telefon: +41 77 939 72 39</li>
-          <li>E-Mail: Kino@info.com</li>
+          <li>E-Mail: Cineflick@info.com</li>
         </ul>
       </div>
     </div>

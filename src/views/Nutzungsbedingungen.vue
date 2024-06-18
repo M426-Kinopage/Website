@@ -35,7 +35,7 @@
         <p>Wir behalten uns das Recht vor, Ihren Zugang zu unseren Diensten jederzeit und aus beliebigem Grund zu beenden oder zu beschränken, einschließlich bei Verstoß gegen diese Nutzungsbedingungen oder sonstiges Fehlverhalten. Alle Bestimmungen dieser Nutzungsbedingungen, die aus ihrer Natur heraus nach der Beendigung weiterhin gelten sollten, bleiben auch nach der Beendigung in Kraft.</p>
 
         <h3>12. Kontakt</h3>
-        <p>Bei Fragen oder Bedenken bezüglich dieser Nutzungsbedingungen oder unserer Dienste können Sie uns unter dishan.kuganathan@bbzsogr.ch oder ||||||||||||| erreichen.</p>
+        <p>Bei Fragen oder Bedenken bezüglich dieser Nutzungsbedingungen oder unserer Dienste können Sie uns unter dishan.kuganathan@bbzsogr.ch  erreichen.</p>
 
         <h3>13. Salvatorische Klausel</h3>
         <p>Sollte eine Bestimmung dieser Nutzungsbedingungen für ungültig oder undurchsetzbar erklärt werden, bleibt die Gültigkeit und Durchsetzbarkeit der übrigen Bestimmungen hiervon unberührt. Anstelle der ungültigen oder undurchsetzbaren Bestimmung gilt diejenige gültige und durchsetzbare Bestimmung als vereinbart, die dem wirtschaftlichen Sinn und Zweck der ungültigen oder undurchsetzbaren Bestimmung am nächsten kommt.</p>
