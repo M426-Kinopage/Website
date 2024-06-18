@@ -3,7 +3,6 @@ import HomeView from "../views/HomeView.vue";
 import AboutView from "../views/AboutView.vue";
 import Kino from "../views/Kino.vue";
 import Kantine from "../views/Kantine.vue";
-import Movies from "../views/Movies.vue";
 import MovieDetails from "../views/MovieDetails.vue";
 import Geschenkkarte from "../views/Geschenkkarte.vue";
 import Partner from "../views/Partner.vue";
@@ -33,11 +32,6 @@ const routes = [
     component: Kantine,
   },
   {
-    path: "/movies",
-    name: "movies",
-    component: Movies,
-  },
-  {
     path: "/geschenkkarte",
     name: "geschenkkarte",
     component: Geschenkkarte,
@@ -62,11 +56,6 @@ const routes = [
     path: "/nutzungsbedingungen",
     name: "nutzungsbedingungen",
     component: Nutzungsbedingungen,
-  },
-  {
-    path: "/movies",
-    name: "movies",
-    component: Movies,
   },
   {
     path: "/movieDetails",

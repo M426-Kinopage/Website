@@ -7,7 +7,7 @@
   --gunmetal-1: hsl(229, 15%, 21%);
   --gunmetal-2: hsl(216, 22%, 18%);
   --gainsboro: hsl(0, 7%, 88%);
-  --citrine: rgb(119, 102, 51);
+  --bordeaux: rgb(125, 17, 40);
   --xiketic: hsl(253, 21%, 13%);
   --gray-x: hsl(0, 0%, 74%);
   --white: hsl(0, 100%, 100%);
@@ -365,7 +365,7 @@
 }
 
 #home .hero-title > strong {
-  color: var(--citrine);
+  color: var(--bordeaux);
 }
 
 #home .upcoming {
